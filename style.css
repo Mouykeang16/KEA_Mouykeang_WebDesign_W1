@@ -1,0 +1,88 @@
+/* Part 4: Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Part 1: Setup & CSS Linking - Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Part 4: Colors & Text Styling */
+body {
+    background-color: #f9f9f9;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+}
+
+header {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+/* Headings with distinct text color */
+h1, h2, h3 {
+    color: #2b3a4a;
+}
+
+/* Part 3: CSS Selectors Practice - Element Selector */
+h1 {
+    text-align: center;
+    font-size: 36px;
+}
+
+/* Part 5: Box Model Implementation */
+.profile-card {
+    width: 320px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+.profile-card h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+/* Part 3: Class Selector */
+.bio {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.4;
+    margin-bottom: 15px;
+}
+
+.profile-card section h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.profile-card ul {
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+.profile-card ul li {
+    font-size: 15px;
+    color: #333;
+    margin-bottom: 4px;
+}
+
+/* Part 3: ID Selector & Part 5 Button Margin/Styling */
+#contact-btn {
+    background: #007BFF;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: inherit;
+    margin-top: 10px;
+}
+
+#contact-btn:hover {
+    background: #0056b3;
+}
